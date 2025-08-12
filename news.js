@@ -7,7 +7,7 @@ let newsAccordion = document.getElementById("newsAccordion");
 const xhr = new XMLHttpRequest();
 xhr.open(
   "GET",
-  `https://newsapi.org/v2/top-headlines?country=in&apiKey=b167c52fd68b4a049d93c49f204548b6`,
+  `https://gnews.io/api/v4/top-headlines?country=in&category=general&apikey=2d84aa985a99a546067585e5a62a3d48`,
   true
 );
 xhr.onload = function () {
